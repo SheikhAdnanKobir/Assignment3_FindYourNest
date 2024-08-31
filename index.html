@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindYourNest</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <style>
+        .butn-color{
+            background-color: #ABEF5F;
+        }
+        .font-style{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+</head>
+<body class="font-style">
+    <header class="bg-gray-100 px-9">
+        <nav>
+            <div class="navbar">
+                <div class="navbar-start">
+                  <a class="butn-color rounded-full p-2"><i class="fa-solid fa-arrow-right -rotate-45"></i></a>
+                  <h2 class="pl-2 text-2xl font-extrabold">Rinterio</h2>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                        <li><a class="font-extrabold">Home</a></li>
+                        <li><a class=" font-bold text-gray-400">Services</a></li>
+                        <li><a class="font-bold text-gray-400">Portfolio</a></li>
+                        <li><a class="font-bold text-gray-400">Blogs</a></li>
+                        <li><a class="font-bold text-gray-400">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="hidden md:hidden lg:block">
+                        <i class="fa-solid fa-magnifying-glass bg-white rounded-full p-3 ml-"></i>
+                        <i class="fa-solid fa-cart-shopping bg-white rounded-full p-3 ml-2"></i>
+                        <a class="btn butn-color rounded-3xl">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i></a>
+                    </div>
+                  <div class="dropdown border border-neutral-950 rounded-full">
+                    <div tabindex="0" role="button" class="p-3 lg:hidden rounded-full bg-white">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-white rounded-box z-[1] mt-3 p-2 -ml-10 shadow">
+                      <li><a class="font-extrabold">Home</a></li>
+                      <li><a class="text-gray-400">Services</a></li>
+                      <li><a class="text-gray-400">Portfolio</a></li>
+                      <li><a class="text-gray-400">Blogs</a></li>
+                      <li><a class="text-gray-400">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        
+        <!-- header Section -->
+         <div class="flex flex-col py-24">
+            <!-- this is img -->
+            <div  class="mx-auto my-8">
+                <img src="assets/banner.png" alt="">
+            </div>
+
+            <!-- this is text  -->
+             <div  class="text-center">
+                <h1 class="text-4xl font-black mb-3">A barn house of this design has a <br>striking appearance</h1>
+                <p class="mb-3 w-3/5 mx-auto text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <button class="bg-lime-200
+                p-2 px-5 py-3 rounded-3xl border border-lime-400 font-extrabold">View Details
+                    <i class="fa-solid fa-arrow-right -rotate-45 butn-color  rounded-full p-1 ml-1"></i>
+             </div>
+         </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
